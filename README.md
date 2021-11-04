@@ -1,22 +1,20 @@
 # Recitation 6
-### October 21, 2021
+### November 4, 2021
 ## Topics to Recap
 - Exceptions
 - JUnit Tests
 - HashMaps
 
 ## Examples for Recap
-- Implement the function removeEvens() below that takes as input an integer array nums and outputs an integer array which is, as the function name suggests, a copied version of nums without any even valued entries. For example, if we have the input ```[1,2,3,4,5,6]```, the output would be ```[1,3,5]```. 
-- Write a method ```max``` that returns the maximum int value in the 2d int array.
-- Write a method ```sum``` that returns the average of the 2d int array.
+- Writing a JUnit test suite for our good friend `PositiveInteger.java`.
 
 ## Recitation Problem Set
 
 ### Background
 
-Please pull this week's recitation assignment into your IDE from this GitHub repo.
+Please pull this week's recitation assignment into your IDE from [this GitHub repo](https://github.com/21fa-cit591/recitation8).
 
-In the project, you will see the file `Fraction.java`. This declares the `Fraction` class, which is used to represent a fraction whose numerator and denominator are integers. The fraction can be proper or improper, and does not need to be reduced.
+In the project, you will see the file `Fraction.java`. This declares the `Fraction` class, which (once completed) can be used to represent a fraction whose numerator and denominator are integers. The fraction can be proper or improper, and does not need to be reduced.
 
 `Fraction` has the following methods (DO NOT COMPLETE THESE YET):
 
@@ -80,7 +78,7 @@ Based on the description of the `Fraction` class above, write a suite of unit te
 
 Through this process, you will be completing `Fraction` and `FractionTest` together.
 
-This is a common practice in industry called Test Driven Development (TDD). Done properly, this approach to programming can help make your code more concise and efficient, and keep you from introducing sneaky bugs that would be more difficult to detect and fix later.
+This is a common practice in industry called [Test Driven Development (TDD)](https://www.ibm.com/garage/method/practices/code/practice_test_driven_development/). Done properly, this approach to programming can help make your code more concise and efficient, and keep you from introducing sneaky bugs that would be more difficult to detect and fix later.
 
 When coming up with your unit tests, try to think of a variety of scenarios in which the `Fraction` may be used. You do yourself a bigger service writing specific, meaningful tests, rather than just aiming for complete coverage.
 
